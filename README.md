@@ -1,7 +1,9 @@
 ![Built With Stencil]
 
 #Build the project
-To create a minified build artefact, run the command yarn build which will create all the jsmap and minified files in dist/ directory
+Install yarn globally using npm install -g yarn and then inside the proejct directory run npm install
+To create a minified build artefact, run the command yarn build which will create all the jsmap and 
+minified files in dist/ directory.
 
 # Product & Cart showcase example
 
