@@ -1,0 +1,61 @@
+{
+  "name": "shopping-cart-stenciljs",
+  "version": "0.0.1",
+  "description": "A showcase of product list and cart components in StencilJs.",
+  "homepage": "https://github.com/saurabh1294/stencil-js-shopping-cart-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh1294/stencil-js-shopping-cart-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saurabh1294/stencil-js-shopping-cart-demo/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Saurabh Gattani",
+    "email": "saurabh.gattani@gmail.com",
+    "homepage": "https://github.com/saurabh1294"
+  },
+  "keywords": [
+    "webcomponents",
+    "web-components",
+    "typescript",
+    "scss",
+    "stencil-demo",
+    "stenciljs",
+    "stencil",
+    "tslint-stencil",
+    "state-management",
+    "dom-events",
+    "microfrontend"
+  ],
+  "main": "dist/shopping-cart.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/shopping-cart/shopping-cart.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.0.7",
+    "@stencil/sass": "^1.0.1"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.17",
+    "tslint": "^5.19.0",
+    "tslint-stencil": "^1.0.1"
+  }
+}
