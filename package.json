@@ -2,13 +2,13 @@
   "name": "shopping-cart-stenciljs",
   "version": "0.0.1",
   "description": "A showcase of product list and cart components in StencilJs.",
-  "homepage": "https://github.com/saurabh1294/stencil-js-shopping-cart-demo",
+  "homepage": "https://github.com/saurabh1294/stenciljs-shopping-cart-demo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabh1294/stencil-js-shopping-cart-demo.git"
+    "url": "git+https://github.com/saurabh1294/stenciljs-shopping-cart-demo.git"
   },
   "bugs": {
-    "url": "https://github.com/saurabh1294/stencil-js-shopping-cart-demo/issues"
+    "url": "https://github.com/saurabh1294/stenciljs-shopping-cart-demo/issues"
   },
   "license": "MIT",
   "author": {
