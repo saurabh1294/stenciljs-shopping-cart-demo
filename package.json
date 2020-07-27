@@ -1,5 +1,5 @@
 {
-  "name": "shopping-cart-stenciljs",
+  "name": "@golibrary/shopping-cart-stenciljs",
   "version": "0.0.1",
   "description": "A showcase of product list and cart components in StencilJs.",
   "homepage": "https://github.com/saurabh1294/stenciljs-shopping-cart-demo",
@@ -11,11 +11,7 @@
     "url": "https://github.com/saurabh1294/stenciljs-shopping-cart-demo/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Saurabh Gattani",
-    "email": "saurabh.gattani@gmail.com",
-    "homepage": "https://github.com/saurabh1294"
-  },
+  "author": "Saurabh Gattani <saurabh.gattani@gmail.com>",
   "keywords": [
     "webcomponents",
     "web-components",
@@ -57,5 +53,8 @@
     "@types/jest": "^24.0.17",
     "tslint": "^5.19.0",
     "tslint-stencil": "^1.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
